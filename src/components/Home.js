@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import BedIcon from '@mui/icons-material/Bed';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import LuggageIcon from '@mui/icons-material/Luggage';
-function Body() {
+function Home() {
   return (
     <Box display="flex" className='container-body'
          width={1500} height={80} >
@@ -14,7 +14,6 @@ function Body() {
         fontSize='medium'
         style={{color:'white'}}></MenuIcon>
       </Button> 
-      <Box className='wrapper'>  
       <Button
         ml={10}
         startIcon={<BedIcon/>}
@@ -24,8 +23,9 @@ function Body() {
         >
         Booking.com
       </Button>
-            <Button
-        ml={10}
+      <Box display="flex" className='wrapper'>  
+      <Button
+        ml={100}
         startIcon={<PersonOutlineIcon/>}
         variant='text'
         size='large'
@@ -47,4 +47,4 @@ function Body() {
   )
 }
 
-export default Body
+export default Home

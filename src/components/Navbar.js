@@ -7,7 +7,7 @@ import CardTravelIcon from '@mui/icons-material/CardTravel';
 import YardIcon from '@mui/icons-material/Yard';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import '../styles/Header.css'
-function Header() {
+function Navbar() {
   const [showHeader, setShowHeader] = useState();
   return (
   <Box className='container'>
@@ -62,4 +62,4 @@ function Header() {
   )
 }
 
-export default Header;
+export default Navbar;
